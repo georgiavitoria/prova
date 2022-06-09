@@ -1,0 +1,160 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 130px;
+    background-color: #fff;
+}
+header {
+    height: 120px;
+    background-color: #A1CEF8;
+}
+
+footer {
+    height: 100px;
+    color: #fff;
+    background-color: #1A396B;
+}
+
+/*-- IDS(OBJETOS) --*/
+#Logo-site {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 100%;
+
+}
+.Fundo{
+    height: 5rem;
+    width: 1170px;
+    margin:0 auto;
+   height: 120px;
+   margin-left: -5.5rem;
+   
+}
+#Destaques {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /*configurações da fonte*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1A396B;
+}
+#img-1{
+    border-radius: 5%;
+}
+#img-2{
+    border-radius: 5%;
+}
+#img-3{
+    border-radius: 5%;
+}
+.instagram{
+    border-radius: 30%;
+}
+.whatsapp{
+    border-radius: 30%;
+}
+#twitter{
+    border-radius: 30%;
+}
+#imagem-foguete{
+    margin-left: 100%;
+}
+
+/*-- CLASSES --*/
+
+/*redes sociais footer*/
+
+.container-copyright {
+    margin-top: 45px;
+    margin-left: 4%;
+  
+}
+
+.box-footer {
+    display: flex;
+}
+
+.box-footer nav {
+    margin-top: 25px;
+    margin-left: 55%;
+}
+
+.box-footer nav ul {
+    list-style-type: none;
+}
+
+.box-footer nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 15px;
+    
+}
+
+/*cards*/
+
+.box-flex-imgs{
+    justify-content: space-around ;
+    display: flex;
+}
+.box-flex-legends{
+    display: flex;
+    justify-content: space-between;
+}
+.legendah2{
+    font-family: sans-serif;
+    color:#FF5551;
+    font-weight: bold;
+    font-size: 24px;
+}
+.legendah1{ 
+    font-family:sans-serif;
+    color:#1A396B;
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+/*Barra de navegação*/
+.navbar {
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.navbar-menu{
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 1270px;
+    margin: 0 auto 0 auto;
+}
+
+.container nav {
+    /*configurações da fonte*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A396B;
+    text-transform: uppercase;
+}
+
+.container nav ul {
+    display: flex;
+}
+
+.container nav ul li {
+    list-style-type: none;
+    padding-top: 0;
+    padding-right: 20px;
+    margin-top: 10px;
+}
